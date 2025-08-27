@@ -34,7 +34,7 @@ const UniversitiesPage = () => {
   if (loading) {
     return (
       <div className="flex h-screen items-center justify-center">
-        <p>Loading universities...</p>
+        <p>Loading universities for you...</p>
       </div>
     );
   }
